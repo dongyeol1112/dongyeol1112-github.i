@@ -1,0 +1,65 @@
+<!DOCTYPE html>  <!-- HTML5 문서임을 알려줌 -->
+<html>
+<head>
+    <meta charset="utf-8">  <!-- 한글이 정상적으로 보이도록 설정 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">  <!-- 모바일에서 콘텐츠 크기 최적화 -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>기말과제 예시 (모바일 메뉴 사용)</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo"><a href="index.html">STAR작업실</a></div>
+
+        <div id="navmenu">
+            <a href="about.html"><p>소개</p></a>
+            <a href="index.html#projects"><p>작업물</p></a>
+            <a href="https://www.instagram.com/dufdl1/" target="_blank"><p>인스타그램</p></a>
+        </div>
+
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+
+        <div class="wrapper">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="index.html">작업물</a></li>
+                <li><a href="https://www.instagram.com/dufdl1/" target="_blank">인스타그램</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main-container">
+        <div id="featured-image"><img src="images/작업하는 캐릭터02.jpg"></div>
+
+        <div id="main-text">
+            <p>안녕하세요. 대구가톨릭대학교 뉴미디어&게임디자인과 22학번 이동열입니다. 웹디자인 기말과제로 웹페이지를 만들게 되었습니다. 웹페이지를 만들어 본 경험이 없어서 만드는데 엄청 힘들었는데 다 만들고 보니 내가 이걸 만들었다고? 하고 생각이 들게 되었습니다. 1학년 때 저의 작업물 한 개를 올렸습니다. 즐겁게 감상해 주시면 감사하겠습니다. </p>
+        </div>
+
+        <div id="projects">            
+            <div class="project-container">
+                <img src="images/컴퓨터그래픽스_기말프로젝트_콜라_대지 1.jpg">
+                <a href="project1.html">
+                    <div class="project-overlay">
+                        <h3 class="project-title">STAR작업실 작업물</h3>
+                        <p class="project-description">음료수 광고지</p>
+                    </div>
+                </a>
+            </div>
+            <!--<div class="project-container">
+                <img src="images/project02.png">
+                <a href="project2.html">
+                    <div class="project-overlay">
+                        <h3 class="project-title">A to B(ee)</h3>
+                        <p class="project-description">개인적 실천 솔루션을 제공하는 꿀벌 구호 서비스 브랜딩</p>
+                    </div>
+                </a>
+            </div>
+        </div>-->
+
+        <div id="copyright">Copyright &copy; 2025 뉴미디어&게임디자인과</div>
+    </div>
+</body>
+</html>
